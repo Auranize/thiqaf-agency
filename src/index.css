@@ -1,16 +1,31 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap"); */
+
+/* RTL Support */
+/* html[dir="rtl"] {
+  font-family: 'Cairo', sans-serif;
+} */
+
+/* html[dir="rtl"] body {
+  font-family: 'Cairo', sans-serif;
+} */
+
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-/* RTL Support */
-html[dir="rtl"] {
-  font-family: 'Cairo', sans-serif;
+
+*>* {
+  font-family: "Poppins", sans-serif;
 }
 
-html[dir="rtl"] body {
-  font-family: 'Cairo', sans-serif;
-}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
